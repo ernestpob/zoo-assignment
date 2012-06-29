@@ -1,0 +1,94 @@
+'''ZINGARU WILDLIFE,GAME AND RECREATIONAL  CENTER blueprint for our zoo'''
+class ZOO:
+    def __init__(self,Zoo_name,Location):
+        self.name=Zoo_name
+        self.Location=Location
+
+    def search(self):
+          print 'name:' + self.name
+          print 'Location:' + self.Location
+          
+class Living Beings(ZOO):
+    def __init__(self,name,Zoo_name,Location,age,gender):
+        ZOO.__init__(self,Zoo_name,"West stack")
+        self.age=age
+        self.gender=gender
+    def search(self):
+            ZOO.search(self)
+            print 'age:' + str(self.age)
+            print 'gender:' + self.gender
+
+class  EMPLOYEES(ZOO):
+    def __init__(self,Zoo_name,Location,ID,Dept.,Postion,Salary):
+        ZOO.__init__(self,Zoo_name,"East stack ")
+        self.ID=ID
+        self.Dept.=Dept.
+        self.Postion=Position
+        self.Salary=Salary
+    def add_Employee(self):
+        ZOO.search(self)
+        print 'ID:' + self.ID
+        print 'Dept.:' + self.Dept.
+        print 'Position:' + self.Position
+        print 'Salary:' + self.Salary
+
+class VISITORS(ZOO):
+    def __init__(self,ticket number,animal picture):
+        ZOO.__init__(self,Zoo_name,"Visitor")
+        self.ticket_number=ticket number
+        self.animal_picture=animmal picture
+    def guest(self):
+        print 'ticket number:' + self.ticket_number
+        print 'animal picture:' + self.animal_picture
+
+#we have to know the population at zoo(animals) and number of visitors at the zoo
+        #also will be able to know the the total number of death with regards to
+        #animals and those alive as well
+        
+class Population(ZOO):
+    def __init__(self,Zoo_name,visitors population,animals population):
+        ZOO.__init__(self,Zoo_name,"population")
+        self.population_Visitor=Visitors population
+        self.population_animals=animals population
+    def population_database:
+        ZOO.population_database(self):
+            print 'Visitors population:' + self.Visitors_population
+            print 'animals population:' + self.animals_population            
+      
+class Animals classification(ZOO):
+    def __init__(self,Zoo_name,Amphibians,Mammals,Birds,Fish,Reptiles):
+        ZOO.__init__(self,Zoo_name,"East-North ZOO BLUEPRINT ")
+        self.Amphibians=Amphibians
+        self.Mammals=Mammals
+        self.Birds=Birds
+        self.Fish=Fish
+        self.Reptiles=Reptiles
+    def animals_classification:
+        ZOO.animals_classification(self):
+            print 'Amphibians:' + self.Animals
+            print 'Mammals:' + self.Mammals
+            print 'Birds' + self.Birds
+            print 'Fish' + self.Fish
+            print 'Reptiles' + self.Reptiles
+
+#various types of animals classifications named above
+
+class Amphibians(ZOO):
+    def __init__(self,)
+        ZOO.__init__(self,Zoo_name,"West-south stack"):
+        def    
+class Mammals(ZOO):
+    def __init__(self,)
+        ZOO.__init__(self,zoo_name,"West-South stack")
+         def 
+class Birds(ZOO):
+    def  __init__(self,)
+        ZOO.__init__(self,Zoo_name,"West-South stack")
+        def
+class         
+
+
+
+
+
+
